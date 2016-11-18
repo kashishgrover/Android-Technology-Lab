@@ -25,7 +25,7 @@ public class doctor extends AppCompatActivity
             @Override
             public void onClick(View v)
             {
-                send="Siddharth Modi"+"-"+"Cardiology"+"-"+"102";
+                send="Spongebob Modi"+"-"+"Cardiology"+"-"+"102";
             }
         });
         b2.setOnClickListener(new View.OnClickListener()
@@ -33,7 +33,7 @@ public class doctor extends AppCompatActivity
             @Override
             public void onClick(View v)
             {
-                send="Shivani Mehta"+"-"+"Pediatrician"+"-"+"009";
+                send="Patrick Mehta"+"-"+"Pediatrician"+"-"+"009";
             }
         });
         b3.setOnClickListener(new View.OnClickListener()
@@ -41,7 +41,7 @@ public class doctor extends AppCompatActivity
             @Override
             public void onClick(View v)
             {
-                send="Aniruddh Paul"+"-"+"General Physician"+"-"+"405";
+                send="Gary Paul"+"-"+"General Physician"+"-"+"405";
             }
         });
         b4.setOnClickListener(new View.OnClickListener()

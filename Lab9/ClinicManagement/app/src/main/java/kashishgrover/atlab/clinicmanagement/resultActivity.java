@@ -27,9 +27,9 @@ public class resultActivity extends AppCompatActivity
         LinearLayout layout=(LinearLayout)findViewById(R.id.main);
         SQLiteDatabase mydatabase1=openOrCreateDatabase("patient", MODE_PRIVATE, null);
 
-        mydatabase1.execSQL("CREATE TABLE appointment(name varchar(20),deptartment varchar(20),room varchar(3));");
-        mydatabase1.execSQL("CREATE TABLE patient(uname varchar(20),name varchar(20),age varchar(2),dob varchar(20),bloodtype varchar(5));");
-        mydatabase1.execSQL("INSERT INTO patient VALUES('kashish','Kashish Grover','21','16-01-1995','O+');");
+        //mydatabase1.execSQL("CREATE TABLE appointment(name varchar(20),deptartment varchar(20),room varchar(3));");
+        //mydatabase1.execSQL("CREATE TABLE patient(uname varchar(20),name varchar(20),age varchar(2),dob varchar(20),bloodtype varchar(5));");
+        //mydatabase1.execSQL("INSERT INTO patient VALUES('kashish','Kashish Grover','21','16-01-1995','O+');");
         @SuppressLint("Recycle") Cursor resultSet=mydatabase1.rawQuery("Select * from patient", null);
         final int size=resultSet.getCount();
         resultSet.moveToFirst();

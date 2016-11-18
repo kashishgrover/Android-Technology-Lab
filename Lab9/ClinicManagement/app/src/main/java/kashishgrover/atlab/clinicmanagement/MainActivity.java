@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         String pass=ed1.getText().toString();
         SQLiteDatabase mydatabase=openOrCreateDatabase("login", MODE_PRIVATE, null);
         //mydatabase.execSQL("CREATE TABLE login(username varchar(20),password varchar(20));");
-       // mydatabase.execSQL("INSERT INTO login VALUES('kashish','zildjian1');");
+        //mydatabase.execSQL("INSERT INTO login VALUES('kashish','zildjian1');");
         //mydatabase.execSQL("INSERT INTO login VALUES('grover','zildjian1');");
         @SuppressLint("Recycle") final Cursor resultSet=mydatabase.rawQuery("Select * from login;",null);
         final int size=resultSet.getCount();
